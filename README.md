@@ -1,18 +1,21 @@
-# Emotion Detection with Watson NLP
+# Final Project: Emotion Detection with Watson NLP
+
+**Project Name:** Final Project - Emotion Detection Application Using Watson NLP  
+**Course Repository:** `oaqjp-final-project-emb-ai`
 
 An AI-powered Flask web application that analyzes user-provided text using IBM Watson NLP's Emotion Prediction Service to detect emotions (anger, disgust, fear, joy, sadness) and identify the dominant emotion.
 
 ## Table of Contents
-- [Overview](#overview)
+- [Project Name & Overview](#project-name--overview)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Unit Testing](#unit-testing)
 - [Static Code Analysis](#static-code-analysis)
 - [Error Handling](#error-handling)
-- [Author](#author)
 
-## Overview
+## Project Name & Overview
+**Project Name:** Final Project  
 This application interfaces with IBM Watson NLP's Emotion Predict library to extract emotional sentiment from natural language text. The system extracts confidence scores for five primary emotions:
 - Anger
 - Disgust
@@ -24,7 +27,7 @@ It determines the dominant emotion with the highest score and provides both a Py
 
 ## Project Structure
 ```text
-final_project_emotion_detector/
+oaqjp-final-project-emb-ai/
 ├── EmotionDetection/
 │   ├── __init__.py
 │   └── emotion_detection.py
@@ -41,8 +44,8 @@ final_project_emotion_detector/
 ## Installation
 1. Clone this repository to your local environment:
    ```bash
-   git clone <YOUR_GITHUB_REPOSITORY_URL>
-   cd final_project_emotion_detector-main
+   git clone https://github.com/VNK1404/oaqjp-final-project-emb-ai.git
+   cd oaqjp-final-project-emb-ai
    ```
 
 2. Install the required Python dependencies:
